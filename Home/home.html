@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <title>Home</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="bookslider.css" /><!-- for the slider -->
+    <link rel="stylesheet" href="home.css" type="text/css" media="screen"><!-- main css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Footer/footer.css" type="text/css" media="screen"><!-- for footer -->
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Poppins|Sarabun|Ubuntu" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div id="header">
+        <script src="../Header/header.js"></script>
+    </div>
+    <div id="main">
+        <!-- slideshow of latest books-->
+        <!-- Container for the image gallery -->
+        <div id="slideshow" class="container-fluid">
+
+           <!-- Full-width images with number text -->
+           <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+            <a href="../The Girl in Room 105/The Girl in Room 105.html"><img src="../Thumbnails-Book Review/The Girl in Room 105.JPG" style="width:100%"></a>
+           </div>
+  
+           <div class="mySlides">
+               <div class="numbertext">2 / 6</div>
+               <a href="../The Fault in Our Stars/The Fault in Our Stars.html"><img src="../Thumbnails-Book Review/The Fault in Our Stars.jpg" style="width:100%"></a>
+           </div>
+  
+           <div class="mySlides">
+               <div class="numbertext">3 / 6</div>
+               <a href="../Harry Potter and the Chamber of Secrets/Harry Potter and the Chamber of Secrests.html"><img src="../Thumbnails-Book Review/Harry Potter and the Chamber of Secrets.jpg" style="width:100%"></a>
+           </div>
+
+           <div class="mySlides">
+               <div class="numbertext">4/6</div>
+               <a href="../Half Girlfriend/Half Girlfriend.html"><img src="../Thumbnails-Book Review/Half Girlfriend.jpg" style="width:100%"></a>
+           </div>
+
+           <div class="mySlides">
+               <div class="numbertext">5/6</div>
+               <a href="../The Room of many Colours/The Room of Many Colours.html"><img src="../Thumbnails-Book Review/The Room of Many Colours.jpg" style="width: 100%"></a>
+           </div>
+           <div class="mySlides">
+               <div class="numbertext">6/6</div>
+               <a href="../Wise & Otherwise/Wise & Otherwise.html"><img src="../Thumbnails-Book Review/Wise and Otherwise.jpg" style="width:100%"></a>
+           </div>
+  
+           <!-- Next and previous buttons -->
+           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+           <!-- Image text -->
+          <div class="caption-container">
+           <p id="caption"></p>
+          </div>
+  
+          <!-- Thumbnail images -->
+          <div class="row">
+              <div class="column">
+                <img class="demo" src="../Thumbnails-Book Review/The Girl in Room 105.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Girl in Room 105">
+              </div>
+              <div class="column"> 
+                <img class="demo" src="../Thumbnails-Book Review/The Fault in Our Stars.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Fault in Our Stars">
+              </div>
+              <div class="column">
+                <img class="demo" src="../Thumbnails-Book Review/Harry Potter and the Chamber of Secrets.jpg" style="width:100%" onclick="currentSlide(3)" alt="Harry Potter and the Chamber of Secrets">
+              </div>
+              <div class="column">
+                <img class="demo" src="../Thumbnails-Book Review/Half Girlfriend.jpg" style="width:100%" onclick="currentSlide(4)" alt="Half Girlfriend">
+              </div>
+              <div class="column">
+                <img class="demo" src="../Thumbnails-Book Review/The Room of Many Colours.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Room of many Colours">
+              </div>
+              <div class="column">
+                <img class="demo" src="../Thumbnails-Book Review/Wise and Otherwise.jpg" style="width:100%" onclick="currentSlide(6)" alt="Wise and Otherwise">
+              </div>
+            </div>
+        </div>
+        <br><br>
+        <a href="../The Girl in Room 105/The Girl in Room 105.html">
+            <div class="container" id="latest">
+                <div class="item" id="latestpost">
+                   <img id="img" src="../Thumbnails-Book Review/The Girl in Room 105.JPG" alt="The Girl in Room 105 - Best of CB" style="width:100%">
+                   <p id="caption">The Girl in Room 105 - Best of CB</p>
+                </div>
+            </div>
+        </a>
+        <br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <a href="../The Fault in Our Stars/The Fault in Our Stars.html"><div class="col-md-4"><img src="../Thumbnails-Book Review/The Fault in Our Stars.jpg" alt=""><p class="post-caption">The Fault in Our Stars-Mixture of Emotions</p></div></a>
+                <a href="../Harry Potter and the Chamber of Secrets/Harry Potter and the Chamber of Secrests.html"><div class="col-md-4 offset-md-4"><div class="pl-5"><img src="../Thumbnails-Book Review/Harry Potter and the Chamber of Secrets.jpg" alt=""><p class="post-caption">HP and the Chamber of Secrets-Perfect Prequel</p></div></div></a>
+            </div>
+            <br>
+            <div class="row">
+                <a href="../Half Girlfriend/Half Girlfriend.html"><div class="col-md-4"><img src="../Thumbnails-Book Review/Half Girlfriend.jpg" alt=""><p class="post-caption">Half Girlfriend-Lost Romance</p></div></a>
+                <a href="../The Room of many Colours/The Room of Many Colours.html"><div class="col-md-4 offset-md-4"><img src="../Thumbnails-Book Review/The Room of Many Colours.jpg" alt=""><p class="post-caption">The Room of Many Colours-Story collection</p></div></a>
+            </div>
+            <br>
+            <div class="row">
+                <a href="../Wise & Otherwise/Wise & Otherwise.html"><div class="col-md-4"><img src="../Thumbnails-Book Review/Wise and Otherwise.jpg" alt=""><p class="post-caption">Wise & Otherwise-Useful Life experiences</p></div></a>
+                <a href="../The Bachelor of Arts/The Bachelor of Arts.html"><div class="col-md-4  offset-md-4"><img src="../Thumbnails-Book Review/The Bachelor of Arts.jpg" alt=""><p class="post-caption">The Bachelor of Arts-Story of a BA graduate</p></div></a>
+            </div>
+            <br>
+            <div class="row">
+                <a href="../Waiting for the Mahatma/Waiting for the Mahatma.html"><div class="col-md-4"><img src="../Thumbnails-Book Review/Waiting for the Mahatma.jpg" alt=""><p class="post-caption">Waiting for the Mahatma-Life change</p></div></a>
+                <a href="../Jasper Jones/Jasper Jones.html"><div class="col-md-4 offset-md-4"><img src="../Thumbnails-Book Review/Jasper Jones.jpg" alt=""><p class="post-caption">Australian murder story</p></div></a>
+            </div>
+            <br>
+            <div class="row">
+                <a href="../Five point someone/Five point someone.html"><div class="col-md-4 offset-md-6" id="last-post"><img src="../Thumbnails-Book Review/Five point Someone.JPG" alt=""><p class="post-caption">five point someone-College life</p></div></a>
+            </div>
+        </div>
+        
+
+    
+    </div>
+    <br><br>
+    <footer>
+       <script src="../Footer/finalfooter.js"></script>
+    </footer>
+  <script src="bookslider.js" async></script>
+</body>
+</html>
