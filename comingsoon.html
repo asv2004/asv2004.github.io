@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coming Soon</title>
+    <link rel="shortcut icon" href="../Desktop/book-review/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="comingsoon.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+</head>
+<body>
+    <div class="bgimg">
+        <div class="middle">
+            <!-- heading -->
+            <h1>Coming soon...</h1>
+            <!-- horizontal ruler -->
+            <hr>
+            <!-- paragraph -->
+            <p id="demo" style="font-size: 30px"></p>
+        </div>
+    </div>
+</body>
+<script>
+   var countDownDate = new Date("January 1, 2019 12:00:00").getTime();
+   var countDownfunction = setInterval(function(){
+       var now = new Date().getTime();
+       var distance = countDownDate - now;
+       var days = Math.floor(distance/(1000*60*60*24));
+       var hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+       var minutes = Math.floor((distance % (1000*60*60))/(1000*60));
+       var seconds = Math.floor((distance%(1000*60))/1000);
+   
+
+   document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+   if(distance<0) {
+       clearInterval(countDownfunction);
+       document.getElementById("demo").innerHTML = "Expired";
+   }
+   },1000);
+</script>
+</html>
