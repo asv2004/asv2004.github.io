@@ -78,3 +78,9 @@ li {
 body {
     background-color: #fff;
 }
+
+@media(max-width: 768px){
+#basic img {
+     width: 390px;
+}
+}
