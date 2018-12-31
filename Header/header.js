@@ -10,7 +10,7 @@ document.getElementById("header").innerHTML =
 +       "<i class='fa fa-bars'></i>"
 +   "</div>"
 +   "<ul>"
-+       "<li><a href='Home/home.html'>Home</a></li>"
++       "<li><a href="https://www.asv2004.github.io">Home</a></li>"
 +       "<li><a href='#'>Chetan Bhagat<i class='fa fa-sort-desc'></i></a>"
 +          "<ul>"
 +              "<li><a href='../Half Girlfriend/Half Girlfriend.html' target='_parent'>Half Girlfriend</a></li>"
