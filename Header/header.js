@@ -1,6 +1,6 @@
 document.getElementById("header").innerHTML = 
 "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>"
-+ "<link rel='stylesheet' href='Header/header.css'>"
++ "<link rel='stylesheet' href='https://github.com/asv2004/asv2004.github.io/blob/master/Header/header.css'>"
 + "<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet'>"
 + "<script src='http://code.jquery.com/jquery-3.3.1.js'></script>"
 
