@@ -29,6 +29,12 @@ document.getElementById("header").innerHTML =
 +              "<li><a href='../thebachelorofarts/thebachelorofarts.html' target='_parent'>The Bachelor of Arts</a></li>"
 +           "</ul>"
 +       "</li>"
++       "<li><a href='#'>Harry Potter<i class='fa fa-sort-desc'></i></a>"
++           "<ul>"
++               "<li><a href='../hpandthechamberofsecrets/hpandthechamberofsecrets.html' target='_parent'>Chamber of Secrets</a></li>"
++              "<li><a href='../prisoner-of-azkaban/prisoner-of-azkaban.html' target='_parent'>Prisoner of Azkaban</a></li>"
++           "</ul>"
++       "</li>
 +   "</ul>"
 + "</nav>"; 
 
