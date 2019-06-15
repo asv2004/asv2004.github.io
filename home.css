@@ -70,7 +70,7 @@
 
 
 /* caption text for latest post */
-  #latest-caption {
+  #caption {
     position: absolute;
     bottom: 15px;
     left: 25px;
@@ -121,7 +121,7 @@ script {
   padding-right: 0;
   }
   
- #post-caption, #latest-caption {
+ #post-caption, #caption {
   font-size: 30px;
   }
 }
