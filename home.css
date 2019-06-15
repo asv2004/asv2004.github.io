@@ -106,9 +106,14 @@ h1#title-latest-post {
 script {
   width: 100%;
 }
-
+/*
 @media screen and (max-width: 768px) {
   img {
     width: 768px;
   }
+}
+*/
+
+#post-caption, #caption {
+  font-size: 30px;
 }
