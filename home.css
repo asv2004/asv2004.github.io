@@ -113,7 +113,13 @@ script {
   }
 }
 */
-
 #post-caption, #caption {
   font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+.container{
+  padding-left: 0;
+  padding-right: 0;
+  }
 }
