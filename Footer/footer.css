@@ -27,6 +27,10 @@ footer {
     font-size: 32px;
     color: black;
 }
+
+.fa-instagram:before {
+    padding-left: 100%;
+}
 /*
 #socials ul li {
     padding-right: 20%;
