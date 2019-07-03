@@ -39,10 +39,6 @@ li#twitter {
 }
 
 li#instagram {
-    transform: translateX(150px);
-}
-
-li#gplus {
     transform: translateX(180px);
 }
 }
