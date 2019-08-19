@@ -111,7 +111,7 @@ span {
     color: lightgrey;
 }
 
-#main p:not(nav){
+#main p{
     font-size: 1.3rem;
     line-height: 1.7;
 }
