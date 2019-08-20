@@ -87,13 +87,13 @@ li {
 body {
     background-color: #fff;
 }
-/*
+
 @media(max-width: 768px){
     #basic img {
-         width: 100%;
+         width: 768px;
     }
 }
-*/
+
 #basic p {
     font-size: 1.3rem;
 }
