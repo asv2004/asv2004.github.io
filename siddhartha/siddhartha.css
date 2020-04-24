@@ -68,6 +68,10 @@ img {
     line-height: 2.4;
 }
 
+#main:not(footer) {
+     padding: 0px;
+}
+
 #heading {
     padding: 5px;
     font-size: 2em;
@@ -116,4 +120,7 @@ span {
     #main{
         padding: 50px;
     }
+	#main:not(footer){
+		padding:0px;
+	}
 }
