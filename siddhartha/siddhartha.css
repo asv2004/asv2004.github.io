@@ -68,7 +68,7 @@ img {
     line-height: 2.4;
 }
 
-#main footer {
+#main:not(footer) {
      padding: 0px;
 }
 
@@ -120,7 +120,7 @@ span {
     #main{
         padding: 50px;
     }
-	#main footer{
+	#main:not(footer){
 		padding:0px;
 	}
 }
