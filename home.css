@@ -84,6 +84,9 @@
   font-family: 'Sarabun', sans-serif;
   color: black;
   font-weight: bolder;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 400px;
 }
 
 #header .container {
