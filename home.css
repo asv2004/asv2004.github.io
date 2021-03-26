@@ -129,6 +129,6 @@ script {
   font-size: 40px;
   }
   .demo{
-    display: none !important;
+    display: none;
   }
 }
