@@ -83,6 +83,7 @@ nav div {
 @media(max-width: 768px) {
     nav div {
         display: block;
+        width: 480px;
     }
 
     #header ul {
