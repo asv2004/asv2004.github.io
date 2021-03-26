@@ -70,7 +70,7 @@
 
 
 /* caption text for latest post */
-  #caption {
+  #latest-caption {
     position: absolute;
     bottom: 15px;
     left: 25px;
@@ -127,5 +127,8 @@ script {
   
  #post-caption, #caption {
   font-size: 40px;
+  }
+  .column .demo{
+    display: none;
   }
 }
