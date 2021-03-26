@@ -129,6 +129,6 @@ script {
   font-size: 40px;
   }
   .column .demo{
-    display: none;
+    display: none !important;
   }
 }
