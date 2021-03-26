@@ -128,7 +128,7 @@ script {
  #post-caption, #caption {
   font-size: 40px;
   }
-  .column .demo{
+  .demo{
     display: none !important;
   }
 }
