@@ -79,7 +79,7 @@
     font-size: 19px;
   }
 
-.post-caption {
+.card-text {
   white-space: nowrap;
   font-family: 'Sarabun', sans-serif;
   color: black;
@@ -87,20 +87,21 @@
   text-overflow: ellipsis;
   overflow: hidden;
   width: 400px;
+  font-size: 1rem;
 }
 
 #header .container {
   padding: 20px;
 }
 
-.col-md-4 img{
+.col-md-6 img{
   height: 300px;
   width: 400px;
 }
 
 #last-post {
   left: 50px !important;
-  width: fit-content
+  width: fit-content;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -131,4 +132,9 @@ script {
   .demo{
     display: none;
   }
+}
+
+.card-body{
+  padding:0% !important;
+  margin-bottom: 2rem;
 }
