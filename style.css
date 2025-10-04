@@ -120,4 +120,5 @@ span {
 */
 #main p, #main h2{
     padding: 20px;
+	display: inline-block;
 }
