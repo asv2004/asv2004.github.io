@@ -26,6 +26,7 @@ document.getElementById("header").innerHTML =
 +       "</li>"
 +      "<li><a href='#'>Philosophy<i class='fa fa-sort-desc'></i></a>"
 +           "<ul>"
++               "<li><a href='../books/hk.html' target='_parent'>Human Knowledge</a></li>"
 +               "<li><a href='../books/therepublic.html' target='_parent'>The Republic</a></li>"
 +              "<li><a href='../books/siddhartha.html' target='_parent'>Siddhartha</a></li>"
 +           "</ul>"
