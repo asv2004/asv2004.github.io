@@ -122,3 +122,10 @@ span {
     padding: 20px;
 	display: inline-block;
 }
+.spoiler {
+    background-color: black;
+    color: black;
+}
+.spoiler:hover{
+    background-color: white;
+}
